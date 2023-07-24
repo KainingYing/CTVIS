@@ -34,7 +34,7 @@ https://github.com/KainingYing/CTVIS/assets/42159793/25273241-6642-46b4-9a47-bd1
 
 ### OVIS
 
-| Model | Backbone             | AP   | AP $_{50}$ | AP $_{75}$ | AR $_{1}$ | AR$_{10}$ | Link                                    |
+| Model | Backbone             | AP   | AP $_{50}$ | AP $_{75}$ | AR $_{1}$ | AR $_{10}$ | Link                                    |
 | ----- | -------------------- | ---- | --------- | --------- | -------- | --------- | --------------------------------------- |
 | CTVIS | ResNet-50            | 35.5 | 60.8      | 34.9      | 16.1     | 41.9      | config / [weight]() / [submission](https://github.com/KainingYing/storage/releases/download/CTVIS/ctvis_r50_ovis_35.5.zip)         |
 | CTVIS | Swin-L (200 queries) | 46.9 | 71.5      | 47.5      | 19.1     | 52.1      | config / [weight](https://github.com/KainingYing/storage/releases/download/CTVIS/ctvis_swinl_ovis_46.9.pth) / [submission](https://github.com/KainingYing/storage/releases/download/CTVIS/ctvis_swinl_ovis_46.9.zip)          |
