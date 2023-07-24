@@ -1,7 +1,7 @@
 # CTVIS: Consistent Training for Online Video Instance Segmentation
 
-https://user-images.githubusercontent.com/42159793/234478815-3ca313da-828c-4a6e-ae81-727bad8d84cf.mp4
-
+<!-- https://user-images.githubusercontent.com/42159793/234478815-3ca313da-828c-4a6e-ae81-727bad8d84cf.mp4 -->
+https://github.com/KainingYing/CTVIS/assets/42159793/25273241-6642-46b4-9a47-bd19beec6f68.mp4
 ## News
 
 - [2023/07/14] Our work CTVIS is accepted by [**ICCV 2023**](https://iccv2023.thecvf.com/)! Congrats! ✌️
