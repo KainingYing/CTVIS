@@ -56,3 +56,4 @@ _darcs
 /detectron2
 /output
 /mask2former/modeling/pixel_decoder/ops/build
+/datasets
