@@ -19,7 +19,8 @@
 ## 📰 News
 
 - [2023/07/14] Our work CTVIS is accepted by [**ICCV 2023**](https://iccv2023.thecvf.com/)! Congrats! ✌️
-- [2023/07/24] We will release the code ASAP. Stay tuned!
+- [2023/07/24] ~~We will release the code ASAP. Stay tuned!~~
+- [2023/7/31] We release the code and weights on YTVIS19_R50.
 
 ## 🔨 Install
 
