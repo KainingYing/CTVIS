@@ -1,3 +1,4 @@
+<img src="assets/LogoICCV23V04.svg" width="100"/>
 <div align="center">
 
 <h2>CTVIS: Consistent Training for Online Video Instance Segmentation</h2>
@@ -10,7 +11,7 @@
 
 <sup>3</sup>[Northwest A&F University](https://en.nwsuaf.edu.cn/), &nbsp; <sup>4</sup>[The University of Adelaide](https://www.adelaide.edu.au/), &nbsp; <sup>5</sup>[Swansea University](https://en.nwsuaf.edu.cn/)
 
-<img src="assets/teaser.jpg" width="300"/>
+<img src="assets/teaser.jpg" width="500"/>
 
 <!-- https://github.com/KainingYing/CTVIS/assets/42159793/25273241-6642-46b4-9a47-bd19beec6f68.mp4 -->
 </div>
@@ -96,7 +97,7 @@ If you found this project useful for your paper, please kindly cite our paper.
 
 ```
 @misc{ying2023ctvis,
-      title={CTVIS: Consistent Training for Online Video Instance Segmentation}, 
+      title={{CTVIS}: {C}onsistent {T}raining for {O}nline {V}ideo {I}nstance {S}egmentation}, 
       author={Kaining Ying and Qing Zhong and Weian Mao and Zhenhua Wang and Hao Chen and Lin Yuanbo Wu and Yifan Liu and Chengxiang Fan and Yunzhi Zhuge and Chunhua Shen},
       year={2023},
       eprint={2307.12616},
