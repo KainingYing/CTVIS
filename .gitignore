@@ -57,3 +57,8 @@ _darcs
 /output
 /mask2former/modeling/pixel_decoder/ops/build
 /datasets
+
+zip_file.py
+upload.zip
+*.mp4
+work_dirs/
