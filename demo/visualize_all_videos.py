@@ -25,27 +25,24 @@ from detectron2.projects.deeplab import add_deeplab_config  # noqa
 from detectron2.utils.logger import setup_logger
 
 from mask2former import add_maskformer2_config
-from mask2former_video import add_maskformer2_video_config
-from ctvis import add_ct_vis_config
+from ctvis import add_ctvis_config
 from predictor import VisualizationDemo
 
 # constants
 VERSION2ANNOPATH = {
-    '2019': 'datasets/ytvis_2019/valid.json',
-    '2021': 'datasets/ytvis_2021/valid.json',
-    '2022': 'datasets/ytvis_2022/valid.json',
+    '2019_val': 'datasets/ytvis_2019/valid.json',
+    '2021_val': 'datasets/ytvis_2021/valid.json',
+    '2022_val': 'datasets/ytvis_2022/valid.json',
     '2019_train': 'datasets/ytvis_2019/train.json',
-    'ovis': 'datasets/ovis/annotations/valid.json',
-    'ovis_mini': 'datasets/ovis_mini_trainval/mini_valid.json'
+    'ovis_val': 'datasets/ovis/annotations/valid.json'
 }
 
 VERSION2VIDEOPATH = {
-    '2019': 'datasets/ytvis_2019/valid/JPEGImages',
-    '2021': 'datasets/ytvis_2021/valid/JPEGImages',
-    '2022': 'datasets/ytvis_2022/valid/JPEGImages',
+    '2019_val': 'datasets/ytvis_2019/valid/JPEGImages',
+    '2021_val': 'datasets/ytvis_2021/valid/JPEGImages',
+    '2022_val': 'datasets/ytvis_2022/valid/JPEGImages',
     '2019_train': 'datasets/ytvis_2019/train/JPEGImages',
-    'ovis': 'datasets/ovis/valid',
-    'ovis_mini': 'datasets/ovis/train'
+    'ovis_val': 'datasets/ovis/valid',
 }
 
 
@@ -54,8 +51,7 @@ def setup_cfg(args):
     cfg = get_cfg()
     add_deeplab_config(cfg)
     add_maskformer2_config(cfg)
-    add_maskformer2_video_config(cfg)
-    add_ct_vis_config(cfg)
+    add_ctvis_config(cfg)
     cfg.merge_from_file(args.config_file)
     cfg.merge_from_list(args.opts)
     cfg.freeze()
@@ -66,7 +62,7 @@ def get_parser():
     parser = argparse.ArgumentParser(description="Demo for visualization on all images.")
     parser.add_argument(
         "--config-file",
-        default="configs/youtubevis_2019/online_vis_R50_bs16_8ep.yaml",
+        default="configs/ytvis_2019/CTVIS_R50.yaml",
         metavar="FILE",
         help="path to config file",
     )

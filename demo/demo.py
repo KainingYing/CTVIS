@@ -26,9 +26,7 @@ from detectron2.utils.logger import setup_logger
 
 from predictor import VisualizationDemo
 from mask2former import add_maskformer2_config
-from mask2former_video import add_maskformer2_video_config
-from ctvis import add_ct_vis_config
-from maskdino import add_maskdino_config
+from ctvis import add_ctvis_config
 
 
 # constants
@@ -40,9 +38,7 @@ def setup_cfg(args):
     cfg = get_cfg()
     add_deeplab_config(cfg)
     add_maskformer2_config(cfg)
-    add_maskformer2_video_config(cfg)
-    add_maskdino_config(cfg)
-    add_ct_vis_config(cfg)
+    add_ctvis_config(cfg)
     cfg.merge_from_file(args.config_file)
     cfg.merge_from_list(args.opts)
     cfg.freeze()
@@ -53,7 +49,7 @@ def get_parser():
     parser = argparse.ArgumentParser(description="maskformer2 demo for builtin configs")
     parser.add_argument(
         "--config-file",
-        default="configs/ytvis_2019/ctvis_m2f_r50.yaml",
+        default="configs/ytvis_2019/CTVIS_R50.yaml",
         metavar="FILE",
         help="path to config file",
     )
@@ -70,13 +66,11 @@ def get_parser():
         help="A file or directory to save output visualizations. "
              "If not given, will show output in an OpenCV window.",
     )
-
     parser.add_argument(
         "--save-frames",
         action='store_true',
         help="Save frame level image outputs.",
     )
-
     parser.add_argument(
         "--confidence-threshold",
         type=float,
@@ -168,12 +162,11 @@ if __name__ == "__main__":
         while video.isOpened():
             success, frame = video.read()
             if success:
-                if count % 10 == 0:
+                if count % 5 == 0:  # frame sample rate
                     vid_frames.append(frame)
                 count += 1
             else:
                 break
-        # vid_frames.pop(11)
 
         start_time = time.time()
         with autocast():
