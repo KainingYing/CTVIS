@@ -1,4 +1,4 @@
-_BASE_: ytvis2019.yaml
+_BASE_: YTVIS2019.yaml
 DATASETS:
   DATASET_RATIO: [1.0, 0.8]
   TRAIN: ("coco2ytvis2021_train", "ytvis_2021_train")

@@ -176,9 +176,6 @@ class GTVideoVisualizer(Visualizer):
 
 
 DATASETS = {
-    'ytvis_2019_mini': {
-        'anno_path': 'datasets/ytvis_2019_mini_trainval/mini_valid.json',
-        'img_root': 'datasets/ytvis_2019/train/JPEGImages'},
     'ytvis_2019_train': {
         'anno_path': 'datasets/ytvis_2019/train.json',
         'img_root': 'datasets/ytvis_2019/train/JPEGImages'},

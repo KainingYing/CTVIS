@@ -7,3 +7,4 @@ submitit
 scikit-image
 opencv-python
 addict
+Pillow==8.2.0
