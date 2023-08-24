@@ -1,3 +1,4 @@
+einops
 cython
 scipy
 shapely
@@ -8,3 +9,4 @@ scikit-image
 opencv-python
 addict
 Pillow==8.2.0
+setuptools==58.2.0 
