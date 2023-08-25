@@ -62,3 +62,4 @@ zip_file.py
 upload.zip
 *.mp4
 work_dirs/
+_ts/
