@@ -17,10 +17,12 @@
 </div>
 
 ## 📰 News
-
+- [2023/06/18] CTVIS wins 2nd Place in Pixel-level Video Understanding Challenge (VPS Track) at CVPR2023.
 - [2023/07/14] Our work CTVIS is accepted by [**ICCV 2023**](https://iccv2023.thecvf.com/)! Congrats! ✌️
 - [2023/07/24] ~~We will release the code ASAP. Stay tuned!~~
 - [2023/07/31] We release the code and weights on YTVIS19_R50.
+- [2023/08/24] CTVIS wins the 2nd Place in The 5th Large-scale Video Object Segmentation Challenge - Track 2: Video Instance Segmentation at ICCV 2023.
+
 
 ## 🔨 Install
 
@@ -39,7 +41,6 @@ pip install openmim
 mim install "mmcv==1.7.1"
 
 pip install -r requirements.txt
-pip install setuptools==58.2.0 opencv-python
 
 cd mask2former/modeling/pixel_decoder/ops
 sh make.sh
