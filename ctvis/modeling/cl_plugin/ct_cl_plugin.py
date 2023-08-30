@@ -92,9 +92,9 @@ class TrainTracklet(object):
 
     def get_positive_negative_embeddings(self, frame_id):
         anchor_embedding = self.reid_embeds[frame_id]
-        positive_embedding = None  
+        positive_embedding = None
         if self.exist_before(frame_id):
-            if self.momentum_embed and np.random.rand() > 0.9999:
+            if self.momentum_embed and np.random.rand() > 0.5:
                 positive_embedding = self.similarity_guided_reid_embed_list[frame_id - 1]
             else:
                 for embedding in self.reid_embeds[:frame_id][::-1]:
@@ -457,8 +457,7 @@ def loss_reid(qd_items, outputs, reduce=False):
         _pos_expand = torch.repeat_interleave(pred_pos, pred.shape[1], dim=1)
         _neg_expand = pred_neg.repeat(1, pred.shape[1])
         # [bz,N], N is all pos and negative samples on reference frame, label indicate it's pos or negative
-        x = torch.nn.functional.pad(
-            (_neg_expand - _pos_expand), (0, 1), "constant", 0)
+        x = torch.nn.functional.pad((_neg_expand - _pos_expand), (0, 1), "constant", 0)
         contras_loss += torch.logsumexp(x, dim=1)
 
         aux_pred = qd_item['cosine_similarity'].permute(1, 0)
