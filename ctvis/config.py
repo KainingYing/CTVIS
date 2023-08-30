@@ -72,6 +72,5 @@ def add_ctvis_config(cfg):
     cfg.MODEL.CL_PLUGIN.BIO_CL = False
     cfg.MODEL.CL_PLUGIN.ONE_DIRECTION = True
     cfg.MODEL.CL_PLUGIN.MOMENTUM_EMBED = True
-    cfg.MODEL.CL_PLUGIN.NOISE_EMBED = True
-
-
+    # cfg.MODEL.CL_PLUGIN.NOISE_EMBED = True  # seems brings unstable training in small batch size (<16) and frame nums (<10)
+    cfg.MODEL.CL_PLUGIN.NOISE_EMBED = False  
