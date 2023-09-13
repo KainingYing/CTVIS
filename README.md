@@ -188,7 +188,7 @@ If you found this project useful for your paper, please kindly cite our paper.
 }
 ```
 
-## 纪念刘伊凡老师
+## 纪念[刘伊凡老师](https://scholar.google.com/citations?user=ksQ4JnQAAAAJ&hl=en&oi=ao)
 
 We are deeply grieved by the irreparable loss of Professor Liu.
 Professor Liu provided invaluable advice on our research, especially regarding the design of positive and negative samples as well as subsequent experimental arrangements and paper writing. She gave us tremendous guidance. Academically, Professor Liu was proficient and published influential works such as Structured Knowledge Distillation and Auto-painter that impacted academia profoundly.
