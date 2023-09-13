@@ -190,6 +190,12 @@ If you found this project useful for your paper, please kindly cite our paper.
 
 ## 纪念刘伊凡老师
 
+We are deeply grieved by the irreparable loss of Professor Liu.
+Professor Liu provided invaluable advice on our research, especially regarding the design of positive and negative samples as well as subsequent experimental arrangements and paper writing. She gave us tremendous guidance. Academically, Professor Liu was proficient and published influential works such as Structured Knowledge Distillation and Auto-painter that impacted academia profoundly.
+Professor Liu taught us to publish valuable and impactful research results. Even if it is just a small module, as long as it is widely applied and developed by others, it is sufficient to leave a brilliant legacy. Beyond academia, Professor Liu's optimism, sagacity, and transcendence left us with deep impressions.
+We will bear Professor Liu's teachings in mind, stay true to our original aspirations, and continue to move forward in academic research to publish original and influential results. This is the best way to cherish Professor Liu's memory.
+Professor Liu's passing has left an irreplaceable void in each of our hearts. We will always cherish her wisdom and kindness. Professor Liu, thank you for your meticulous nurturing of us. We will surely uphold your academic spirit, live up to your trust, and keep moving forward. May you rest in peace.
+
 我们深感悲痛，永远失去了刘老师。刘老师对我们的研究工作提出了宝贵的建议，尤其是在构造正负样本以及后续的实验设计和论文写作上，给予了我们强有力的指导。在学术上，刘老师造诣颇深，发表了对学术界影响深远的工作，如Structured knowledge distillation和Auto-painter等。刘老师教导我们，要发表有价值和影响力的研究成果，哪怕只是一个小模块，如果为后人所广泛应用和发展，也足以留下灿烂的一笔。
 在学术之外，刘老师的乐观豁达和聪慧超脱也给我们留下了深刻的印象。我们会牢记刘老师的教导，不忘初心，继续努力在学术道路上前行，发表具有原创性和影响力的研究成果。这是对刘老师最好的怀念。
 刘老师的离去让我们每个人心中留下了难以填补的空白。我们将永远怀念他的睿智和善良。刘老师，感谢您对我们的悉心培养，我们一定会秉持您的学术精神，不负重托，继续努力前行。愿您安息。
