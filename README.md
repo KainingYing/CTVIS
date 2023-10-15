@@ -22,6 +22,7 @@
 - [2023/07/24] ~~We will release the code ASAP. Stay tuned!~~
 - [2023/07/31] We release the code and weights on YTVIS19_R50.
 - [2023/08/24] CTVIS wins the 2nd Place in The 5th Large-scale Video Object Segmentation Challenge - Track 2: Video Instance Segmentation at ICCV 2023.
+- [2023/10/15] We upload all the checkpoints.
 
 
 ## 🔨 Install
@@ -133,15 +134,15 @@ python demo/demo.py --config-file configs/ytvis_2019/CTVIS_R50.yaml --video-inpu
 
 | Model                                      | Backbone             | AP   | AP50 | AP75 | AR1  | AR10 | Link                                                                                                             |
 | ------------------------------------------ | -------------------- | ---- | ---- | ---- | ---- | ---- | ---------------------------------------------------------------------------------------------------------------- |
-| [CTVIS](configs/ytvis_2019/CTVIS_R50.yaml) | ResNet-50            | 55.2 | 79.5 | 60.2 | 51.3 | 63.7 | [1Drive](https://onedrive.live.com/?authkey=%21ANWpOk9OYOes5e8&id=C2B61E01A0E33EA5%2128353&cid=C2B61E01A0E33EA5) |
-| CTVIS                                      | Swin-L (200 queries) | 65.6 | 87.7 | 72.2 | 56.5 | 70.4 |                                                                                                                  |
+| CTVIS | ResNet-50            | 55.2 | 79.5 | 60.2 | 51.3 | 63.7 | [1Drive](https://1drv.ms/f/s!AqU-46ABHrbCgd1B1ak6T05g56zl7w?e=NhX79z)|
+| CTVIS                                      | Swin-L (200 queries) | 65.6 | 87.7 | 72.2 | 56.5 | 70.4 | [1Drive](https://1drv.ms/f/s!AqU-46ABHrbCgd1B1ak6T05g56zl7w?e=NhX79z)                                                                                                                 |
 
 ### YouTube-VIS 2021
 
 | Model | Backbone             | AP   | AP50 | AP75 | AR1  | AR10 | Link |
 | ----- | -------------------- | ---- | ---- | ---- | ---- | ---- | ---- |
-| CTVIS | ResNet-50            | 50.1 | 73.7 | 54.7 | 41.8 | 59.5 |      |
-| CTVIS | Swin-L (200 queries) | 61.2 | 84   | 68.8 | 48   | 65.8 |      |
+| CTVIS | ResNet-50            | 50.1 | 73.7 | 54.7 | 41.8 | 59.5 | [1Drive](https://1drv.ms/f/s!AqU-46ABHrbCgd1B1ak6T05g56zl7w?e=NhX79z)     |
+| CTVIS | Swin-L (200 queries) | 61.2 | 84   | 68.8 | 48   | 65.8 | [1Drive](https://1drv.ms/f/s!AqU-46ABHrbCgd1B1ak6T05g56zl7w?e=NhX79z)     |
 
 ### YouTube-VIS 2022
 
@@ -149,15 +150,15 @@ python demo/demo.py --config-file configs/ytvis_2019/CTVIS_R50.yaml --video-inpu
 
 | Model | Backbone             | AP   | APS  | APL  | Link |
 | ----- | -------------------- | ---- | ---- | ---- | ---- |
-| CTVIS | ResNet-50            | 44.9 | 50.3 | 39.4 |      |
-| CTVIS | Swin-L (200 queries) | 53.8 | 61.2 | 46.4 |      |
+| CTVIS | ResNet-50            | 44.9 | 50.3 | 39.4 |  [1Drive](https://1drv.ms/f/s!AqU-46ABHrbCgd1B1ak6T05g56zl7w?e=NhX79z)    |
+| CTVIS | Swin-L (200 queries) | 53.8 | 61.2 | 46.4 |   [1Drive](https://1drv.ms/f/s!AqU-46ABHrbCgd1B1ak6T05g56zl7w?e=NhX79z)   |
 
 ### OVIS
 
 | Model | Backbone             | AP   | AP50 | AP75 | AR1  | AR10 | Link |
 | ----- | -------------------- | ---- | ---- | ---- | ---- | ---- | ---- |
-| CTVIS | ResNet-50            | 35.5 | 60.8 | 34.9 | 16.1 | 41.9 |      |
-| CTVIS | Swin-L (200 queries) | 46.9 | 71.5 | 47.5 | 19.1 | 52.1 |      |
+| CTVIS | ResNet-50            | 35.5 | 60.8 | 34.9 | 16.1 | 41.9 |  [1Drive](https://1drv.ms/f/s!AqU-46ABHrbCgd1B1ak6T05g56zl7w?e=NhX79z)    |
+| CTVIS | Swin-L (200 queries) | 46.9 | 71.5 | 47.5 | 19.1 | 52.1 |  [1Drive](https://1drv.ms/f/s!AqU-46ABHrbCgd1B1ak6T05g56zl7w?e=NhX79z)    |
 
 
 ## 🫡 Acknowledgements
